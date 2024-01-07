@@ -34,6 +34,9 @@ section#login{
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.452);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function:ease; /*transição na mudança de largura e suavização nessa transição para ter o tempo levemente adaptado para mudança*/
 }
 section#login > div#imagem{
     display: block;
